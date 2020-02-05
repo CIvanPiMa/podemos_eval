@@ -32,7 +32,7 @@ def actualiza_calendario():
 
 class Conexion:
     def __init__(self):
-        conn = mysql.connector.connect(
+        self.conn = mysql.connector.connect(
             host='localhost',
             user='eval',
             password='password',
