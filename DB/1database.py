@@ -11,8 +11,8 @@ curs = conn.cursor()
 curs.execute("""
     CREATE SCHEMA IF NOT EXISTS `podemos_eval`
     DEFAULT CHARACTER SET utf8 ;
-    USE `podemos_eval_test`;
+    USE `podemos_eval`;
       """)
 
-print('Base de datos "podemos_eval_test" creada')
+print('Base de datos "podemos_eval" creada')
 
