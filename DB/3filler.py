@@ -10,7 +10,7 @@ conn = mysql.connector.connect(
 )
 curs = conn.cursor()
 
-all_csv = glob.glob('./ejercicio_modeloapiinterfaz/data_*.csv')
+all_csv = glob.glob('../ejercicio_modeloapiinterfaz/data_*.csv')
 lst_df = []
 for file in all_csv:
     lst_df.append(pd.read_csv(file, index_col=0, header=0))
