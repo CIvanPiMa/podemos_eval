@@ -1,0 +1,83 @@
+# Podemos - GUI de juguete
+
+En la primer ventana encontramos directamente las 4 funcionalidades principales de nuestra GUI 
+
+- Clientes
+- Grupos
+- Cuentas
+- Pagos
+
+---
+
+## Ventana Clientes
+
+Directamente la ventana muestra la lista de clientes registrados en la DB
+
+### Crear nuevo cliente
+
+- Ingrese el ID y nombre del nuevo cliente en las casillas correspondientes 
+- Oprimir el boton 'Nuevo' 
+
+### Editar cliente
+
+- Seleccione el cliente que desea editar, sus datos apareceran en las casillas ID  y nombre
+- Cambie el nombre del cliente al nuevo nombre 
+- Oprima 'Editar'
+
+---
+
+## Ventana Grupos
+
+### Si deseamos crear un grupo nuevo
+- Ingrese el ID y nombre del grupo en las casillas correspondientes
+- Oprimir el boton 'Nuevo'
+Se abrira la ventana agregar clientes
+- Seleccione el cliente que desea incluir en el grupo 
+- Oprima 'Añadir'
+- Una vez seleccionados todos los miembros, oprima 'Crear'
+
+### Si deseamos ver los miembros del grupo 
+- seleccionar un Grupo del menú 'drop'
+- Oprima 'Buscar'
+
+### Si deseamos editar los miembros del grupo 
+- seleccionar un Grupo del menú 'drop'
+- Oprima 'Editar'
+
+Se abrira la ventana editar grupo
+Para agregar miembros
+- Seleccione el cliente
+- Oprima 'Añadir'
+Para eliminar miembros
+- Seleccione el cliente
+- Oprima 'Eliminar'
+
+---
+
+## Ventana Cuentas
+
+### Si deseamos crear una cuenta nueva
+- Seleccionar un Grupo del menú 'drop'
+- Oprima 'Nueva Cuenta'
+Se abrira una nuva ventana
+- Introduzca un ID para la cuenta
+- El monto de la cuenta
+- El numero de pagos a realizar
+- Oprima 'Crear Cuenta'
+
+### Si deseamos ver las cuentas de un grupo
+- Seleccionar un Grupo del menú 'drop'
+- Oprima 'Buscar Cuentas'
+
+### Si deseamos conocer los detalles de una cuenta
+- Introduzca el ID de la cuenta en la casilla correspondiente
+- Oprima 'Detalles de la cuenta'
+
+---
+
+## Ventana Pagos
+
+### Si deseamos realizar un pago a una cuenta
+- Introduzca el ID de la cuenta a la que se le realizara el pago
+- Introduzca la cantidad del pago 
+
