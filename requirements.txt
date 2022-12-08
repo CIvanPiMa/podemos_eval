@@ -1,4 +1,4 @@
-certifi==2019.11.28
+certifi==2022.12.7
 dnspython==1.16.0
 mysql-connector-python==8.0.19
 numpy==1.18.1
